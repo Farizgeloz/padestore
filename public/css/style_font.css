@@ -1,0 +1,387 @@
+
+
+/*---------------- FONT COLOR -----------*/
+
+.font_colwhite_blue_a{
+  color: #ffffff;
+}
+.font_colwhite_blue_a:hover{
+  color: #00e5ff;
+}
+.font_colwhite_green_a{
+  color: #ffffff;
+}
+.font_colwhite_green_a:hover{
+  color: #b7ff00;
+}
+.font_colwhite_red_a{
+  color: #ffffff;
+}
+.font_colwhite_red_a:hover{
+  color: #ff0077;
+}
+
+ .font_colblack{
+   color: #161616;
+ }
+ .font_colgrey{
+   color: #494949;
+ }
+ .font_colgrey2{
+   color: #8f8f8f;
+ }
+ .font_colgreen{
+   color: #02532d;
+ }
+ .font_colgreen2{
+   color: #498802;
+ }
+ .font_colwhite{
+   color: #ffffff;
+ }
+ .font_colyellow{
+   color: #e5ff00;
+ }
+ .font_colorange{
+   color: #ff9600;
+ }
+ .font_colorange_stroke{
+   color: #ff7300;
+   text-shadow: 3px 2px 2px #ffffff;
+ }
+ .font_colorangeblue{
+   color: #ff9600;
+ }
+ .font_colorangegreen{
+   color: #ab0303;
+ }
+ .font_colorangered{
+   color: #0174b5;
+ }
+ .font_colpink{
+   color: #ff006a;
+ }
+ .font_colpink_stroke{
+   color: #ff006a;
+   text-shadow: 1px 1px 4px #ffffff;
+ }
+ .font_colmaroon{
+   color: #990442;
+ }
+ .font_coldanger{
+   color: #f4516c!important;
+   margin-left: 3px;
+ }
+ .font_colsilver{
+   color: #7c7c7c;
+ }
+ .font_colsilver2{
+   color: #dadada;
+ }
+ .font_colblue{
+   color: #086a83;
+ }
+ .font_colblue_stroke{
+   color: #ffffff;
+   text-shadow: 2px 1px 2px #084a83;
+ }
+ .font_colblue2{
+   color: #3198f3;
+ }
+ .font_colred{
+   color: #70033a;
+ }
+ .font_colred2{
+   color: #ac0659;
+ }
+ .font_colblue_a{
+   color: #539ddb;
+ }
+ .font_colblue_a:hover{
+   color: #084a83;
+ }
+ .font_colblue_a2{
+   color: #084a83;
+ }
+ .font_colblue_a2:hover{
+   color: #680202;
+ }
+ 
+ .font_colgreen_a{
+   color: #427400;
+   
+ }
+ .font_colgreen_a:hover{
+   color: #2d4e02;
+ }
+ .font_colgreen_a2{
+   color: #2d4e02;
+ }
+ .font_colgreen_a2:hover{
+   color: #800303;
+ }
+ 
+ .font_colred_a{
+   color: #b40557;
+ }
+ .font_colred_a:hover{
+   color: #830850;
+ }
+ .font_colred_a2{
+   color: #830846;
+ }
+ .font_colred_a2:hover{
+   color: #440380;
+ }
+ 
+ .font_colwhite_a{
+   color: #ffffff;
+ }
+ .font_colwhite_a:hover{
+   color: #e0e0e0;
+ }
+
+ .font_menu_blue{
+  color: #036c7a;
+}
+.font_menu_blue:hover{
+  color: #0493a6;
+}
+.font_menu_blue:active{
+  color: #0493a6;
+}
+.font_menu_blue:focus{
+  color: #0493a6;
+}
+
+.font_menu_green{
+  color: #327a6d;
+}
+.font_menu_green:hover{
+  color: #2c9481;
+}
+.font_menu_green:active{
+  color: #2c9481;
+}
+.font_menu_green:focus{
+  color: #2c9481;
+}
+
+.font_menu_red{
+  color: #7a0340;
+}
+.font_menu_red:hover{
+  color: #b3035d;
+}
+.font_menu_red:active{
+  color: #b3035d;
+}
+.font_menu_red:focus{
+  color: #b3035d;
+}
+ 
+
+ /*---------------- FONT SHADDOW -----------*/
+
+ .text_shaddow2{
+  text-shadow: 5px 3px 10px #000;
+}
+.text_shaddow3{
+  text-shadow: 1px 1px 6px #000000;
+}
+.text_shaddow4{
+  text-shadow: 4px 0 4px black, 0 4px 4px black, 4px 0 4px black, 0 4px 4px black;
+}
+
+
+
+ /*---------------- FONT SIZE -----------*/
+.fontsize1{
+  font-size: 1em;
+}
+
+.textsize5{
+  font-size: 50%;
+}
+.textsize6{
+  font-size: 60%;
+}
+.textsize7{
+  font-size: 70%;
+}
+.textsize8{
+  font-size: 80%;
+}
+.textsize9{
+  font-size: 90%;
+}
+.textsize10{
+  font-size: 100%;
+}
+.textsize11{
+  font-size: 110%;
+}
+.textsize12{
+  font-size: 120%;
+}
+.textsize13{
+  font-size: 130%;
+}
+.textsize14{
+  font-size: 140%;
+}
+.textsize15{
+  font-size: 150%;
+}
+.textsize16{
+  font-size: 160%;
+}
+
+
+
+/*---------------- FONT WEIGHT -----------*/
+.font_weight400{
+  font-weight: 400;
+ }
+ .font_weight500{
+   font-weight: 500;
+ }
+ .font_weight600{
+   font-weight: 600;
+ }
+ .font_weight700{
+   font-weight: 700;
+ }
+ .font_weight800{
+   font-weight: 800;
+ }
+ 
+ .font_weight{
+   font-weight: bold;
+   }
+
+/*---------------- FONT ALIGN -----------*/
+.text_align_left{
+  text-align: left;
+}
+.text_align_center{
+  text-align: center;
+}
+.text_align_right{
+  text-align: right;
+}
+.text_justif{
+  text-align: justify;
+}
+
+/*---------------- FONT OTHER -----------*/
+
+.font_overlay {
+  font-family: 'ManifoldCF-Medium';
+  font-weight: bold;
+  text-align: right;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.852), transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 5s linear infinite;
+  position: relative;
+}
+@keyframes shine {
+  0% {
+      background-position-x: -500%;
+  }
+
+  100% {
+      background-position-x: 500%;
+  }
+}
+
+
+.underline_header{
+  text-decoration: underline #c5c5c5 1px;
+  text-underline-offset: 15px;
+  border-radius:0px 0px 35px 35px;
+  margin-top:20px;
+}
+
+.underline_header_blue{
+  text-decoration: underline #084a83 5px;
+  text-underline-offset: 15px;
+  border-radius:0px 0px 35px 35px;
+}
+.underline_header_green{
+  text-decoration: underline #02532d 5px;
+  text-underline-offset: 15px;
+  border-radius:0px 0px 35px 35px;
+}
+
+.underline_header_red{
+  text-decoration: underline #70033a 5px;
+  text-underline-offset: 15px;
+  border-radius:0px 0px 35px 35px;
+}
+.underline_menu{
+  text-decoration: underline #70033a 2px;
+  text-underline-offset: 5px;
+}
+
+
+.p_shine {
+  background: linear-gradient(
+      to right,
+      #ffffff 20%,
+      #04b0dd 30%,
+      #28ba9c 70%,
+      #d83c88 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 5s ease-in-out infinite alternate;
+}
+.p_shine2 {
+  background: linear-gradient(
+      to right,
+      #ffffff 20%,
+      #04b0dd 30%,
+      #28ba9c 70%,
+      #d83c88 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 3s ease-in-out infinite alternate;
+}
+.p_shine3 {
+  background: linear-gradient(
+      to right,
+      #ffffff 20%,
+      #dcdcdc 30%,
+      #a5a5a5 70%,
+      #eaeaea 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 3s ease-in-out infinite alternate;
+}
+@keyframes textShine {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+
