@@ -1,22 +1,22 @@
-name: Deploy FTP
+name: Deploy to InfinityFree
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main   # Jalankan saat push ke branch main
 
 jobs:
-  deploy:
+  ftp-deploy:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-    - name: FTP Deploy
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.6
-      with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./public/      # ganti sesuai folder yang mau di-deploy
-        server-dir: /htdocs/      # ganti sesuai tujuan hosting
+      - name: Upload files via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./     # folder repo lokal
+          server-dir: /htdocs  # folder di server InfinityFree
